@@ -1,0 +1,189 @@
+# Logfile created on 2014-11-14 21:49:55 -0500 by logger.rb/31641
+I, [2014-11-14T21:49:55.950193 #431]  INFO -- :  SeqRule created #<SeqRule:0x91d0c3c>
+I, [2014-11-14T21:49:55.950236 #431]  INFO -- :  RepRule created #<RepRule:0x91d07b4>
+I, [2014-11-14T21:49:55.950281 #431]  INFO -- :  AltRule created #<AltRule:0x91d02a0>
+I, [2014-11-14T21:49:55.950314 #431]  INFO -- :  SeqRule created #<SeqRule:0x91d0098>
+I, [2014-11-14T21:49:55.950337 #431]  INFO -- :  RepRule created #<RepRule:0x91cfeb8>
+I, [2014-11-14T21:49:55.950360 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cfcec>
+I, [2014-11-14T21:49:55.950384 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cfaa8>
+I, [2014-11-14T21:49:55.950408 #431]  INFO -- :  RepRule created #<RepRule:0x91cf8a0>
+I, [2014-11-14T21:49:55.950432 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cf684>
+I, [2014-11-14T21:49:55.950454 #431]  INFO -- :  AltRule created #<AltRule:0x91cf4e0>
+I, [2014-11-14T21:49:55.950477 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.950500 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cf134>
+I, [2014-11-14T21:49:55.950523 #431]  INFO -- :  RepRule created #<RepRule:0x91cef68>
+I, [2014-11-14T21:49:55.950544 #431]  INFO -- :  SeqRule created #<SeqRule:0x91ced9c>
+I, [2014-11-14T21:49:55.950567 #431]  INFO -- :  RepRule created #<RepRule:0x91ceb08>
+I, [2014-11-14T21:49:55.950591 #431]  INFO -- :  SeqRule created #<SeqRule:0x91ce84c>
+I, [2014-11-14T21:49:55.950614 #431]  INFO -- :  AltRule created #<AltRule:0x91ce66c>
+I, [2014-11-14T21:49:55.950645 #431]  INFO -- :  AltRule created #<AltRule:0x91ce324>
+I, [2014-11-14T21:49:55.950668 #431]  INFO -- :  SeqRule created #<SeqRule:0x91ce0a4>
+I, [2014-11-14T21:49:55.950691 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cde24>
+I, [2014-11-14T21:49:55.950717 #431]  INFO -- :  AltRule created #<AltRule:0x91cdba4>
+I, [2014-11-14T21:49:55.950738 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cda00>
+I, [2014-11-14T21:49:55.950761 #431]  INFO -- :  AltRule created #<AltRule:0x91cd794>
+I, [2014-11-14T21:49:55.950782 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cd5b4>
+I, [2014-11-14T21:49:55.950804 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cd3ac>
+I, [2014-11-14T21:49:55.950827 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cd190>
+I, [2014-11-14T21:49:55.950863 #431]  INFO -- :  SeqRule created #<SeqRule:0x91ccec0>
+I, [2014-11-14T21:49:55.950887 #431]  INFO -- :  SeqRule created #<SeqRule:0x91ccc04>
+I, [2014-11-14T21:49:55.950908 #431]  INFO -- :  AltRule created #<AltRule:0x91cc95c>
+I, [2014-11-14T21:49:55.950935 #431]  INFO -- :  RepRule created #<RepRule:0x91cc6b4>
+I, [2014-11-14T21:49:55.950956 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cc3d0>
+I, [2014-11-14T21:49:55.950979 #431]  INFO -- :  AltRule created #<AltRule:0x91cbfd4>
+I, [2014-11-14T21:49:55.951001 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cbb24>
+I, [2014-11-14T21:49:55.951035 #431]  INFO -- :  AltRule created #<AltRule:0x91cb840>
+I, [2014-11-14T21:49:55.951067 #431]  INFO -- :  SeqRule created #<SeqRule:0x91cb69c>
+I, [2014-11-14T21:49:55.951095 #431]  INFO -- :  AltRule created #<AltRule:0x91cb354>
+I, [2014-11-14T21:49:55.951120 #431]  INFO -- :  SeqRule created #<SeqRule:0x91ca828>
+I, [2014-11-14T21:49:55.951142 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c9c84>
+I, [2014-11-14T21:49:55.951203 #431]  INFO -- :  AltRule created #<AltRule:0x91c902c>
+I, [2014-11-14T21:49:55.951236 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c87f8>
+I, [2014-11-14T21:49:55.951259 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c7f74>
+I, [2014-11-14T21:49:55.951281 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c77cc>
+I, [2014-11-14T21:49:55.951302 #431]  INFO -- :  RepRule created #<RepRule:0x91c71c8>
+I, [2014-11-14T21:49:55.951323 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c6610>
+I, [2014-11-14T21:49:55.951343 #431]  INFO -- :  AltRule created #<AltRule:0x91c5c9c>
+I, [2014-11-14T21:49:55.951366 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c56fc>
+I, [2014-11-14T21:49:55.951401 #431]  INFO -- :  RepRule created #<RepRule:0x91c4eb4>
+I, [2014-11-14T21:49:55.951427 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c4ae0>
+I, [2014-11-14T21:49:55.951449 #431]  INFO -- :  AltRule created #<AltRule:0x91c439c>
+I, [2014-11-14T21:49:55.951475 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.951496 #431]  INFO -- :  AltRule created #<AltRule:0x91c30c8>
+I, [2014-11-14T21:49:55.951517 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c2ba0>
+I, [2014-11-14T21:49:55.951541 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c2984>
+I, [2014-11-14T21:49:55.951562 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c26b4>
+I, [2014-11-14T21:49:55.951585 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c236c>
+I, [2014-11-14T21:49:55.951609 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c2100>
+I, [2014-11-14T21:49:55.951631 #431]  INFO -- :  AltRule created #<AltRule:0x91c1db8>
+I, [2014-11-14T21:49:55.951653 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c1a98>
+I, [2014-11-14T21:49:55.951678 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c1430>
+I, [2014-11-14T21:49:55.951705 #431]  INFO -- :  AltRule created #<AltRule:0x91c0f6c>
+I, [2014-11-14T21:49:55.951727 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c0c9c>
+I, [2014-11-14T21:49:55.951748 #431]  INFO -- :  SeqRule created #<SeqRule:0x91c0364>
+I, [2014-11-14T21:49:55.951769 #431]  INFO -- :  AltRule created #<AltRule:0x91bf43c>
+I, [2014-11-14T21:49:55.951792 #431]  INFO -- :  SeqRule created #<SeqRule:0x91be5b4>
+I, [2014-11-14T21:49:55.951815 #431]  INFO -- :  SeqRule created #<SeqRule:0x91bd3d0>
+I, [2014-11-14T21:49:55.951841 #431]  INFO -- :  SeqRule created #<SeqRule:0x91bc570>
+I, [2014-11-14T21:49:55.951863 #431]  INFO -- :  AltRule created #<AltRule:0x91bbe54>
+I, [2014-11-14T21:49:55.951886 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b7318>
+I, [2014-11-14T21:49:55.951915 #431]  INFO -- :  RepRule created #<RepRule:0x91b3c18>
+I, [2014-11-14T21:49:55.951937 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b3790>
+I, [2014-11-14T21:49:55.951957 #431]  INFO -- :  AltRule created #<AltRule:0x91b34ac>
+I, [2014-11-14T21:49:55.951980 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b31c8>
+I, [2014-11-14T21:49:55.952005 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b2e58>
+I, [2014-11-14T21:49:55.952026 #431]  INFO -- :  RepRule created #<RepRule:0x91b2c00>
+I, [2014-11-14T21:49:55.952049 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b2980>
+I, [2014-11-14T21:49:55.952072 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b26ec>
+I, [2014-11-14T21:49:55.952094 #431]  INFO -- :  AltRule created #<AltRule:0x91b2458>
+I, [2014-11-14T21:49:55.952115 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b21ec>
+I, [2014-11-14T21:49:55.952135 #431]  INFO -- :  RepRule created #<RepRule:0x91b1f80>
+I, [2014-11-14T21:49:55.952157 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b1d78>
+I, [2014-11-14T21:49:55.952177 #431]  INFO -- :  AltRule created #<AltRule:0x91b1b84>
+I, [2014-11-14T21:49:55.952199 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b1940>
+I, [2014-11-14T21:49:55.952222 #431]  INFO -- :  SeqRule created #<SeqRule:0x91b15f8>
+I, [2014-11-14T21:49:55.952243 #431]  INFO -- :  AltRule created #<AltRule:0x91b12d8>
+I, [2014-11-14T21:49:55.952265 #431]  INFO -- :  RepRule created #<RepRule:0x91b1094>
+I, [2014-11-14T21:49:55.952568 #431]  INFO -- :  RepRule created #<RepRule:0x9349924>
+I, [2014-11-14T21:49:55.952590 #431]  INFO -- :  SeqRule created #<SeqRule:0x9349780>
+I, [2014-11-14T21:49:55.952611 #431]  INFO -- :  RepRule created #<RepRule:0x93495b4>
+I, [2014-11-14T21:49:55.952635 #431]  INFO -- :  AltRule created #<AltRule:0x93493fc>
+I, [2014-11-14T21:49:55.952661 #431]  INFO -- :  RepRule created #<RepRule:0x9349208>
+I, [2014-11-14T21:49:55.952686 #431]  INFO -- :  AltRule created #<AltRule:0x9349014>
+I, [2014-11-14T21:49:55.952708 #431]  INFO -- :  AltRule created #<AltRule:0x9348e70>
+I, [2014-11-14T21:49:55.952730 #431]  INFO -- :  SeqRule created #<SeqRule:0x9348ce0>
+I, [2014-11-14T21:49:55.952751 #431]  INFO -- :  RepRule created #<RepRule:0x9348b28>
+I, [2014-11-14T21:49:55.952774 #431]  INFO -- :  SeqRule created #<SeqRule:0x9348984>
+I, [2014-11-14T21:49:55.952799 #431]  INFO -- :  RepRule created #<RepRule:0x93487e0>
+I, [2014-11-14T21:49:55.952820 #431]  INFO -- :  SeqRule created #<SeqRule:0x9348664>
+I, [2014-11-14T21:49:55.953013 #431]  INFO -- : #<AltRule:0x9349014> looks ahead constant and chooses #<Literal:0x9349050>
+I, [2014-11-14T21:49:55.953045 #431]  INFO -- : #<AltRule:0x9348e70> looks ahead [ and chooses #<SeqRule:0x91cf684>
+I, [2014-11-14T21:49:55.953153 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i8 and chooses #<Literal:0x91d0430>
+I, [2014-11-14T21:49:55.953231 #431]  INFO -- : #<AltRule:0x93493fc> looks ahead c"19 s=%2d\0A\00" and chooses Str
+I, [2014-11-14T21:49:55.953351 #431]  INFO -- : #<AltRule:0x91b12d8> looks ahead define and chooses #<SeqRule:0x91b2980>
+I, [2014-11-14T21:49:55.953380 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.953422 #431]  INFO -- : #<AltRule:0x91b34ac> looks ahead ) and chooses #<SeqRule:0x91bc570>
+I, [2014-11-14T21:49:55.953507 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %x and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.953536 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead alloca and chooses #<SeqRule:0x91cb69c>
+I, [2014-11-14T21:49:55.953562 #431]  INFO -- : #<AltRule:0x91cb840> looks ahead i32 and chooses #<SeqRule:0x91cfcec>
+I, [2014-11-14T21:49:55.953586 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.953692 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %y and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.953721 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead alloca and chooses #<SeqRule:0x91cb69c>
+I, [2014-11-14T21:49:55.953748 #431]  INFO -- : #<AltRule:0x91cb840> looks ahead i32 and chooses #<SeqRule:0x91cfcec>
+I, [2014-11-14T21:49:55.953772 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.953863 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %z and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.953891 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead alloca and chooses #<SeqRule:0x91cb69c>
+I, [2014-11-14T21:49:55.953935 #431]  INFO -- : #<AltRule:0x91cb840> looks ahead i32 and chooses #<SeqRule:0x91cfcec>
+I, [2014-11-14T21:49:55.953969 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.954065 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %"reg2mem alloca point" and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.954096 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead bitcast and chooses #<SeqRule:0x91ca828>
+I, [2014-11-14T21:49:55.954119 #431]  INFO -- : #<AltRule:0x91cb354> looks ahead bitcast and chooses #<Literal:0x91cb480>
+I, [2014-11-14T21:49:55.954143 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.954182 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead 0 and chooses Number
+I, [2014-11-14T21:49:55.954213 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.954331 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead store and chooses #<SeqRule:0x91c2984>
+I, [2014-11-14T21:49:55.954359 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.954399 #431]  INFO -- : #<AltRule:0x91c30c8> looks ahead 0 and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.954426 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead 0 and chooses Number
+I, [2014-11-14T21:49:55.954457 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.954512 #431]  INFO -- : #<AltRule:0x91c30c8> looks ahead %y and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.954539 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %y and chooses Text
+I, [2014-11-14T21:49:55.954641 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead store and chooses #<SeqRule:0x91c2984>
+I, [2014-11-14T21:49:55.954668 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.954712 #431]  INFO -- : #<AltRule:0x91c30c8> looks ahead 1 and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.954740 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead 1 and chooses Number
+I, [2014-11-14T21:49:55.954770 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.954810 #431]  INFO -- : #<AltRule:0x91c30c8> looks ahead %x and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.954836 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %x and chooses Text
+I, [2014-11-14T21:49:55.954941 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %1 and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.954969 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead load and chooses #<SeqRule:0x91cbb24>
+I, [2014-11-14T21:49:55.954994 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.955034 #431]  INFO -- : #<AltRule:0x91cbfd4> looks ahead %x and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.955060 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %x and chooses Text
+I, [2014-11-14T21:49:55.955228 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %2 and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.955257 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead load and chooses #<SeqRule:0x91cbb24>
+I, [2014-11-14T21:49:55.955282 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.955323 #431]  INFO -- : #<AltRule:0x91cbfd4> looks ahead %y and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.955349 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %y and chooses Text
+I, [2014-11-14T21:49:55.955468 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %3 and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.955504 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead add and chooses #<SeqRule:0x91c9c84>
+I, [2014-11-14T21:49:55.955529 #431]  INFO -- : #<AltRule:0x91cc95c> looks ahead add and chooses #<SeqRule:0x91cde24>
+I, [2014-11-14T21:49:55.955556 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.955594 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %1 and chooses Text
+I, [2014-11-14T21:49:55.955638 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %2 and chooses Text
+I, [2014-11-14T21:49:55.955749 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead store and chooses #<SeqRule:0x91c2984>
+I, [2014-11-14T21:49:55.955777 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.955819 #431]  INFO -- : #<AltRule:0x91c30c8> looks ahead %3 and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.955856 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %3 and chooses Text
+I, [2014-11-14T21:49:55.955898 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.955940 #431]  INFO -- : #<AltRule:0x91c30c8> looks ahead %z and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.955966 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %z and chooses Text
+I, [2014-11-14T21:49:55.956088 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %4 and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.956117 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead load and chooses #<SeqRule:0x91cbb24>
+I, [2014-11-14T21:49:55.956151 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.956191 #431]  INFO -- : #<AltRule:0x91cbfd4> looks ahead %z and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.956216 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %z and chooses Text
+I, [2014-11-14T21:49:55.956407 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead %5 and chooses #<SeqRule:0x91c3d48>
+I, [2014-11-14T21:49:55.956448 #431]  INFO -- : #<AltRule:0x91c439c> looks ahead call and chooses #<SeqRule:0x91c4ae0>
+I, [2014-11-14T21:49:55.956473 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.956534 #431]  INFO -- : #<AltRule:0x91c5c9c> looks ahead i8 and chooses #<SeqRule:0x91c6610>
+I, [2014-11-14T21:49:55.956559 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i8 and chooses #<Literal:0x91d0430>
+I, [2014-11-14T21:49:55.956603 #431]  INFO -- : #<AltRule:0x91c902c> looks ahead getelementptr and chooses #<SeqRule:0x91ce84c>
+I, [2014-11-14T21:49:55.956668 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i8 and chooses #<Literal:0x91d0430>
+I, [2014-11-14T21:49:55.956708 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead @.str and chooses Text
+I, [2014-11-14T21:49:55.956751 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.956804 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead 0 and chooses Number
+I, [2014-11-14T21:49:55.956838 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.956876 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead 0 and chooses Number
+I, [2014-11-14T21:49:55.956933 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.956973 #431]  INFO -- : #<AltRule:0x91c902c> looks ahead %4 and chooses #<SeqRule:0x91cf33c>
+I, [2014-11-14T21:49:55.957000 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead %4 and chooses Text
+I, [2014-11-14T21:49:55.957121 #431]  INFO -- : #<AltRule:0x91bf43c> looks ahead ret and chooses #<SeqRule:0x91c0c9c>
+I, [2014-11-14T21:49:55.957152 #431]  INFO -- : #<AltRule:0x91c0f6c> looks ahead i32 and chooses #<SeqRule:0x91c1430>
+I, [2014-11-14T21:49:55.957176 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.957213 #431]  INFO -- : #<AltRule:0x91cf4e0> looks ahead 0 and chooses Number
+I, [2014-11-14T21:49:55.957312 #431]  INFO -- : #<AltRule:0x91b12d8> looks ahead declare and chooses #<SeqRule:0x91b15f8>
+I, [2014-11-14T21:49:55.957339 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i32 and chooses #<Literal:0x91d046c>
+I, [2014-11-14T21:49:55.957378 #431]  INFO -- : #<AltRule:0x91b1b84> looks ahead i8 and chooses #<SeqRule:0x91b1d78>
+I, [2014-11-14T21:49:55.957402 #431]  INFO -- : #<AltRule:0x91d02a0> looks ahead i8 and chooses #<Literal:0x91d0430>
+I, [2014-11-14T21:49:55.957444 #431]  INFO -- : #<AltRule:0x91b2458> looks ahead ... and chooses #<SeqRule:0x91bd3d0>

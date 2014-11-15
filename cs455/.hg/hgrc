@@ -1,0 +1,3 @@
+[paths]
+default=ssh://yzh145@cycle1.csug.rochester.edu//u/cs255/repos
+default-push=ssh://yzh145@cycle1.csug.rochester.edu//u/cs255/repos

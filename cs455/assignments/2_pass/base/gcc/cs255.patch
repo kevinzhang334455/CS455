@@ -1,0 +1,137 @@
+diff -c old_gcc/Makefile.in new_gcc/Makefile.in
+*** old_gcc/Makefile.in	2011-01-16 21:44:21.000000000 -0500
+--- new_gcc/Makefile.in	2011-01-16 21:45:46.000000000 -0500
+***************
+*** 1017,1023 ****
+   tree-profile.o rtlhooks.o cfgexpand.o lambda-mat.o    			   \
+   lambda-trans.o	lambda-code.o tree-loop-linear.o tree-ssa-sink.o 	   \
+   tree-vrp.o tree-stdarg.o tree-cfgcleanup.o tree-ssa-reassoc.o		   \
+!  tree-ssa-structalias.o tree-object-size.o 				   \
+   rtl-factoring.o
+  
+  
+--- 1017,1023 ----
+   tree-profile.o rtlhooks.o cfgexpand.o lambda-mat.o    			   \
+   lambda-trans.o	lambda-code.o tree-loop-linear.o tree-ssa-sink.o 	   \
+   tree-vrp.o tree-stdarg.o tree-cfgcleanup.o tree-ssa-reassoc.o		   \
+!  tree-ssa-structalias.o cs255.o tree-object-size.o 				   \
+   rtl-factoring.o
+  
+  
+***************
+*** 1900,1905 ****
+--- 1900,1907 ----
+     $(SYSTEM_H) $(RTL_H) $(TREE_H) $(TM_P_H) $(EXPR_H) $(GGC_H) output.h \
+     $(DIAGNOSTIC_H) $(FUNCTION_H) $(TM_H) coretypes.h $(TREE_DUMP_H) \
+     $(BASIC_BLOCK_H) $(FLAGS_H) tree-pass.h $(CFGLOOP_H)
++ cs255.o : cs255.c $(TREE_FLOW_H) $(CONFIG_H) \
++    $(SYSTEM_H) $(TREE_H) $(TREE_DUMP_H) $(BASIC_BLOCK_H) $(FLAGS_H) tree-pass.h
+  tree-ssanames.o : tree-ssanames.c $(CONFIG_H) $(SYSTEM_H) coretypes.h \
+     $(TM_H) $(TREE_H) $(VARRAY_H) $(GGC_H) gt-tree-ssanames.h  $(TREE_FLOW_H)
+  tree-phinodes.o : tree-phinodes.c $(CONFIG_H) $(SYSTEM_H) coretypes.h \
+diff -c old_gcc/common.opt new_gcc/common.opt
+*** old_gcc/common.opt	2011-01-16 21:44:23.000000000 -0500
+--- new_gcc/common.opt	2011-01-16 21:45:46.000000000 -0500
+***************
+*** 1154,1157 ****
+--- 1154,1165 ----
+  Common Var(inhibit_warnings)
+  Suppress warnings
+  
++ fcs255
++ Common
++ Invoke the pass for cs255
++ 
++ fdump-cs255-tree-gimple
++ Common
++ Dump the gimple tree in c-like form after the cs255 pass to stderr
++ 
+  ; This comment is to ensure we retain the blank line above.
+Only in new_gcc: cs255.c
+diff -c old_gcc/flags.h new_gcc/flags.h
+*** old_gcc/flags.h	2011-01-16 21:44:24.000000000 -0500
+--- new_gcc/flags.h	2011-01-16 21:45:46.000000000 -0500
+***************
+*** 79,84 ****
+--- 79,88 ----
+    unsigned inlines_hidden : 1;	/* True when -finlineshidden in effect.  */
+  };
+  
++ /* Gu */
++ extern bool flag_cs255;
++ extern bool flag_dump_cs255_tree_gimple;
++ 
+  /* Global visibility options.  */
+  extern struct visibility_flags visibility_options;
+  
+diff -c old_gcc/opts.c new_gcc/opts.c
+*** old_gcc/opts.c	2011-01-16 21:44:30.000000000 -0500
+--- new_gcc/opts.c	2011-01-16 21:45:46.000000000 -0500
+***************
+*** 1012,1017 ****
+--- 1012,1025 ----
+        warning (0, "-f[no-]force-mem is nop and option will be removed in 4.3");
+        break;
+  
++ 	/* Gu */
++ 	case OPT_fcs255:
++ 	  flag_cs255 = true;
++ 	  break;
++ 	case OPT_fdump_cs255_tree_gimple:
++ 	  flag_dump_cs255_tree_gimple = true;
++ 	  break;
++ 
+      case OPT_floop_optimize:
+      case OPT_frerun_loop_opt:
+      case OPT_fstrength_reduce:
+diff -c old_gcc/passes.c new_gcc/passes.c
+*** old_gcc/passes.c	2011-01-16 21:44:30.000000000 -0500
+--- new_gcc/passes.c	2011-01-16 21:45:46.000000000 -0500
+***************
+*** 476,481 ****
+--- 476,485 ----
+    NEXT_PASS (pass_init_datastructures);
+    NEXT_PASS (pass_expand_omp);
+    NEXT_PASS (pass_all_optimizations);
++ 
++   /* Gu */               
++   NEXT_PASS (pass_cs255);
++ 
+    NEXT_PASS (pass_warn_function_noreturn);
+    NEXT_PASS (pass_mudflap_2);
+    NEXT_PASS (pass_free_datastructures);
+diff -c old_gcc/tree-optimize.c new_gcc/tree-optimize.c
+*** old_gcc/tree-optimize.c	2011-01-16 21:44:33.000000000 -0500
+--- new_gcc/tree-optimize.c	2011-01-16 21:45:46.000000000 -0500
+***************
+*** 57,63 ****
+  {
+    return (optimize >= 1
+  	  /* Don't bother doing anything if the program has errors.  */
+! 	  && !(errorcount || sorrycount));
+  }
+  
+  struct tree_opt_pass pass_all_optimizations =
+--- 57,63 ----
+  {
+    return (optimize >= 1
+  	  /* Don't bother doing anything if the program has errors.  */
+! 	  && !(errorcount || sorrycount || flag_cs255));
+  }
+  
+  struct tree_opt_pass pass_all_optimizations =
+diff -c old_gcc/tree-pass.h new_gcc/tree-pass.h
+*** old_gcc/tree-pass.h	2011-01-16 21:44:33.000000000 -0500
+--- new_gcc/tree-pass.h	2011-01-16 21:45:46.000000000 -0500
+***************
+*** 394,399 ****
+--- 394,402 ----
+  extern struct tree_opt_pass pass_final;
+  extern struct tree_opt_pass pass_rtl_seqabstr;
+  
++ /* Gu */
++ extern struct tree_opt_pass pass_cs255;
++ 
+  /* The root of the compilation pass tree, once constructed.  */
+  extern struct tree_opt_pass *all_passes, *all_ipa_passes, *all_lowering_passes;
+  

@@ -1,0 +1,36 @@
+syntax: glob
+*urcc.bin
+*urcc_opt.bin
+.urcc_log
+*urcc.c
+*urcc_opt.c
+Info.plist
+*.run_test
+*.orig
+*.bak
+*.rej
+*~
+*.o
+*.a
+.DS_Store
+*.aux
+*.bbl
+*.blg
+*.log
+*.swp
+*.lof
+*.toc
+*.lot
+*.dvi
+.Rhistory
+.nfs00*
+_region*
+*.sty
+*.synctex.gz
+*.nav
+*.out
+*.snm
+
+syntax: regexp
+.*\#.*\#$
+\.*\#.*\#$

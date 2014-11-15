@@ -1,0 +1,21 @@
+Due Sunday April 27, 11:59pm
+
+Implement Basic Lambda Calculus
+
+Implement a interpreter for a Proc-only language.  This language only has the following features:
+
+ * Create a proc
+ * Apply (call) a proc
+ * Numbers
+
+This is the LC language describe in class and the Lambda Calculus part of the course (see course slides).  The interpreter should be in a file.  Your tests should be in a different file.
+
+You do not have to implement a parser.  Instead you are allowed to create the data structures directly, e.g., in Ruby, eval( Application.new( Lambda.new('x','x'), 1 ), Env.new) as the call to evaluate the program that applies the identity function on number 1.
+
+If you design a complete interpreter taking in a program as text, you can use the provided `parser.rb`, written by Sean Brennan, which has extensive comments at the top regarding usage and syntax.  If you implement your own parser, please include a description of the syntax in a README file.
+
+You may use any programming language for this assignment.  The implementation can use language features other than lambda caculus.  For example, you may use a hashtable or an array to implement an environment.
+
+To test the interpreter completely, you should include a test to show that it correctly implements static scoping.
+
+Submit your LC interpreter, a runnable file with at least five tests, and a README.txt to list the name and content of the submitted files.  You will be graded on the correctness of the interpreter, the comprehensiveness of the tests, and the clarity of README.

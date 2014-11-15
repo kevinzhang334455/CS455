@@ -1,0 +1,64 @@
+diff -r 587afcef7504 -r ab54ddbfba11 gcc/Makefile.in
+--- a/gcc/Makefile.in	Thu Feb 06 15:19:55 2014 -0500
++++ b/gcc/Makefile.in	Fri Feb 07 11:53:04 2014 -0500
+ 
+@@ -3409,18 +3411,18 @@
+ doc/gccint.info: $(TEXI_GCCINT_FILES)
+ doc/cppinternals.info: $(TEXI_CPPINT_FILES)
+ 
+-doc/%.info: %.texi
+-	if [ x$(BUILD_INFO) = xinfo ]; then \
+-		$(MAKEINFO) $(MAKEINFOFLAGS) -I . -I $(gcc_docdir) \
+-			-I $(gcc_docdir)/include -o $@ $<; \
+-	fi
++doc/%.info: #%.texi
++	# if [ x$(BUILD_INFO) = xinfo ]; then \
++	# 	$(MAKEINFO) $(MAKEINFOFLAGS) -I . -I $(gcc_docdir) \
++	# 		-I $(gcc_docdir)/include -o $@ $<; \
++	# fi
+ 
+ # Duplicate entry to handle renaming of gccinstall.info
+-doc/gccinstall.info: $(TEXI_GCCINSTALL_FILES)
+-	if [ x$(BUILD_INFO) = xinfo ]; then \
+-		$(MAKEINFO) $(MAKEINFOFLAGS) -I $(gcc_docdir) \
+-			-I $(gcc_docdir)/include -o $@ $<; \
+-	fi
++doc/gccinstall.info: #$(TEXI_GCCINSTALL_FILES)
++	# if [ x$(BUILD_INFO) = xinfo ]; then \
++	# 	$(MAKEINFO) $(MAKEINFOFLAGS) -I $(gcc_docdir) \
++	# 		-I $(gcc_docdir)/include -o $@ $<; \
++	# fi
+ 
+ doc/cpp.dvi: $(TEXI_CPP_FILES)
+ doc/gcc.dvi: $(TEXI_GCC_FILES)
+diff -r 587afcef7504 -r ab54ddbfba11 gcc/config/i386/linux-unwind.h
+--- a/gcc/config/i386/linux-unwind.h	Thu Feb 06 15:19:55 2014 -0500
++++ b/gcc/config/i386/linux-unwind.h	Fri Feb 07 11:53:04 2014 -0500
+@@ -137,9 +137,11 @@
+     {
+       struct rt_sigframe {
+ 	int sig;
+-	struct siginfo *pinfo;
++	// struct siginfo *pinfo;
++	siginfo_t *pinfo;
+ 	void *puc;
+-	struct siginfo info;
++	// struct siginfo info;
++	siginfo_t info;
+ 	struct ucontext uc;
+       } *rt_ = context->cfa;
+       /* The void * cast is necessary to avoid an aliasing warning.
+diff -r 587afcef7504 -r ab54ddbfba11 libjava/prims.cc
+--- a/libjava/prims.cc	Thu Feb 06 15:19:55 2014 -0500
++++ b/libjava/prims.cc	Fri Feb 07 11:53:04 2014 -0500
+@@ -33,6 +33,10 @@
+ #endif
+ 
+ #ifndef DISABLE_GETENV_PROPERTIES
++#ifdef __GLIBC__
++/* glibc 2.15+ provides even for C++ inline optimized ::isspace etc. Unfortunately those inlines are throw (), and call a function pointer (which is throw () too, but with -fnon-call-exceptions this results in a __cxa_call_unexpected call.  This macro disables the optimized version.  */
++#define __NO_CTYPE 1
++#endif
+ #include <ctype.h>
+ #include <java-props.h>
+ #define PROCESS_GCJ_PROPERTIES process_gcj_properties()
