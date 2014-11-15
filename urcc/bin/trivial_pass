@@ -1,0 +1,26 @@
+#!/usr/bin/ruby
+
+$:.unshift File.dirname(__FILE__)
+
+$Passes = $Passes || Array.new
+
+# insert "printf(function_name)" at the beginning of every function
+trivial_pass = Proc.new do |prog|
+  # only one module in a program
+  prog.each { |func|
+    # skip function decl
+    next if not func.is_a?Ast::Func or func.body == nil
+    call_expr = Ast::Call.new("printf")
+    call_expr.add_param(Ast::StrConst.new("function #{func.id} called\\n"))
+    call_stmt = Ast::AssignStat.new(call_expr)
+    if func.body.size > 0 
+      call_stmt.insert_me("before", func.body.child(0))
+    else
+      call_stmt.insert_me("childof", func.body)
+    end
+  }
+end
+
+$Passes << ["trivial", trivial_pass]
+
+load 'urcc'
